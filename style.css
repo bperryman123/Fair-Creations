@@ -51,9 +51,9 @@ main {
 }
 
 #avatar {
-  width: 25vw;
+  max-width: 25vw;
+  max-height: 250px;
   height: auto;
-  top: 10%;
   border: 5px ridge #228ee3;
   border-radius: 30px;
   background-color: rgba(0, 0, 0, 0.5);
