@@ -24,6 +24,7 @@ body {
   background-repeat: repeat-y;
   background-attachment: fixed;
   background-size: contain;
+  background-position: center;
   padding-bottom: 2%;
 }
 
