@@ -1,0 +1,164 @@
+/*
+Colors in Palette
+Color	Hex	RGB
+Rust #9c5757	(156,87,87)
+Brown #87714f	(135,113,79)
+Blue #467878	(70,120,120)
+Green #4c7351	(76,115,81)
+Purple #575c85	(87,92,133)
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #9A75F0;
+  color: #14f2e0;
+  font-size: 2em;
+  text-shadow: -1px -1px black, 1px -1px black, -1px 1px black, 1px 1px black;
+}
+*/
+body {
+
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/background-img.jpg');
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-size: contain;
+  padding-bottom: 2%;
+}
+
+main {
+  backdrop-filter: opacity(20%);
+}
+
+#navigation {
+  border: 1px solid #8bc633;
+}
+
+#brandicon {
+  border: 1px outset lightgray;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+#email-box {
+  width: 20em;
+}
+
+#hero {
+  height: 45vh;
+
+}
+
+#avatar {
+  width: 25vw;
+  height: auto;
+  top: 10%;
+  border: 5px ridge #228ee3;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  filter: drop-shadow(5px 5px black);
+}
+
+#hero-title {
+  padding-top: 10vh;
+}
+
+#hero h1 {
+  font-size: 8em;
+  backdrop-filter: saturate(20%);
+  font-family: 'Permanent Marker', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #6633c6;
+  text-shadow: 2px 2px #228ee3, -2px -2px #8bc633;
+}
+
+#hero h2 {
+  backdrop-filter: saturate(20%);
+  font-family: 'Comfortaa', 'Courier New', Courier, monospace;
+  color: #228ee3;
+  text-shadow: -1px 1px black, -1px 1px black;
+  text-decoration: 1px wavy underline #6633c6;
+  font-weight: bolder;
+}
+
+#featured,
+#support {
+  width: 95%;
+  border: 4px solid #228ee3;
+  background-color: rgba(87, 92, 133, 0.8);
+  border-radius: 20px;
+  color: #8bc633;
+  filter: drop-shadow(5px 5px black);
+  background-image: url('./images/spotlight.jpg');
+  justify-content: space-evenly;
+}
+
+#featured {
+  margin-top: 5%;
+}
+
+#support {
+  margin-top: 2%;
+}
+
+#featured .card,
+#support .card {
+  border: 2px outset black;
+  margin-bottom: 20px;
+
+  filter: drop-shadow(2px 2px black);
+}
+
+#featured h1,
+#support h1 {
+  font-family: 'Permanent Marker';
+  text-decoration: 2px solid #8bc633 underline;
+  font-style: oblique;
+  filter: drop-shadow(3px 3px #228ee3);
+  margin: 0;
+  backdrop-filter: hue-rotate(60deg);
+}
+
+#featured .card-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px outset #228ee3;
+}
+
+#contact {
+  width: 95%;
+  margin-top: 2%;
+  border: 4px solid #228ee3;
+  background-color: rgba(87, 92, 133, 0.8);
+  border-radius: 20px;
+  color: #8bc633;
+}
+
+#links {
+  width: 95%;
+  margin-top: 2%;
+  border: 4px solid #228ee3;
+  background-color: rgba(87, 92, 133, 0.8);
+  border-radius: 20px;
+  color: #8bc633;
+  filter: drop-shadow(5px 5px black);
+  margin-bottom: 2%;
+  padding-bottom: 10px;
+
+}
+
+#facebook i {
+  font-size: 4em;
+}
+
+#posts {
+    justify-content: space-evenly;
+}
+
+#footer {
+  padding: 20px;
+  backdrop-filter: blur(30px);
+}
